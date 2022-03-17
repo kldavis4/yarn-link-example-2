@@ -1,0 +1,33 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "tinacms": "0.66.8"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "0.60.8"
+  },
+  "resolutions": {
+    "next-tinacms-github": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-github",
+    "next-tinacms-json": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-json",
+    "next-tinacms-markdown": "portal:/Users/kldavis/projects/tinacms/packages/next-tinacms-markdown",
+    "react-tinacms-github": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-github",
+    "react-tinacms-inline": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-inline",
+    "react-tinacms-strapi": "portal:/Users/kldavis/projects/tinacms/packages/react-tinacms-strapi",
+    "@tinacms/auth": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/auth",
+    "@tinacms/cli": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/cli",
+    "@tinacms/datalayer": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/datalayer",
+    "@tinacms/graphql": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/graphql",
+    "@tinacms/metrics": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/metrics",
+    "@tinacms/scripts": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/scripts",
+    "@tinacms/sharedctx": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/sharedctx",
+    "@tinacms/toolkit": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/toolkit",
+    "@tinacms/webpack-helpers": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/webpack-helpers",
+    "create-tina-app": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/create-tina-app",
+    "next-tinacms-cloudinary": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/next-tinacms-cloudinary",
+    "react-tinacms-editor": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/react-tinacms-editor",
+    "tinacms": "portal:/Users/kldavis/projects/tinacms-yarn-link-repro/packages/tinacms"
+  }
+}
