@@ -2,13 +2,13 @@
 
 ## Setup
 
-`git clone https://github.com/tinacms/tinacms.git`
+`git clone git@github.com:kldavis4/tinacms.git`
 
-`git clone https://github.com/kldavis4/yarn-link-example`
+`git clone https://github.com/kldavis4/yarn-link-example-2`
 
-`cd tinacms && git checkout 7a5e47394a7e6c59cb7cd5e00358aa7331bd67ad && yarn && cd ..`
+`cd tinacms && git checkout cf349699f66895beeee9a4b2d3710bfec5ce02bb && yarn && cd ..`
 
-`cd yarn-link-example && yarn`
+`cd yarn-link-example-2 && yarn`
 
 ## Reproduction
 
@@ -33,10 +33,4 @@ yarn link ../tinacms -rp
     at async Function.start (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:412:2287)
 ➤ YN0000: └ Completed in 0s 306ms
 ➤ YN0000: Failed with errors in 0s 738ms
-```
-
-Note: If you move the `@tinacms/graphql` dependency to the root package.json, you get this more helpful error:
-
-```
-Cannot link @tinacms/graphql into yarn-link-example@workspace:. dependency fs-extra@npm:9.1.0 conflicts with parent dependency fs-extra@npm:10.0.0
 ```
