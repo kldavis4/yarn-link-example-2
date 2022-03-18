@@ -13,24 +13,19 @@
 ## Reproduction
 
 ```
-yarn link ../tinacms -rp
-
-➤ YN0000: ┌ Resolution step
-➤ YN0000: └ Completed
 ➤ YN0000: ┌ Fetch step
-➤ YN0000: └ Completed in 0s 252ms
+➤ YN0000: └ Completed in 0s 492ms
 ➤ YN0000: ┌ Link step
-➤ YN0001: │ Error: Assertion failed: Writing attempt prevented to /path/to/tinacms/packages/@tinacms/graphql/node_modules/fs-extra which is outside project root: /path/to/projects/yarn-link-example
-    at $0 (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:695:1626)
-    at Bce (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:695:2199)
-    at T6e (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:695:6703)
-    at yce.finalizeInstall (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:680:26260)
-    at async Ke.linkEverything (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:441:14966)
-    at async /Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:444:4329
-    at async Fe.startTimerPromise (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:412:3730)
-    at async Ke.install (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:444:4105)
-    at async /Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:514:1744
-    at async Function.start (/Users/kldavis/projects/example/.yarn/releases/yarn-3.1.1.cjs:412:2287)
-➤ YN0000: └ Completed in 0s 306ms
-➤ YN0000: Failed with errors in 0s 738ms
+➤ YN0001: │ Error: Assertion failed: Writing attempt prevented to /Users/kldavis/projects/tinacms-yarn-link-repro/packages/@tinacms/cli/node_modules/@tinacms/graphql which is outside project root: /private/tmp/yarn-link-example-2
+    at fb (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:712:1725)
+    at nce (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:712:2298)
+    at T_e (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:712:6802)
+    at rce.finalizeInstall (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:697:26714)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async ze.linkEverything (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:441:14959)
+    at async /private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:444:4324
+    at async Je.startSectionPromise (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:413:3303)
+    at async ze.install (/private/tmp/yarn-link-example-2/.yarn/releases/yarn-3.2.0.cjs:444:4100)
+➤ YN0000: └ Completed in 1s 843ms
 ```
